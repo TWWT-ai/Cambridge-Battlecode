@@ -1,0 +1,38 @@
+# Allow-list: only the project's own code and docs are tracked. Replays, match
+# downloads, build output, experiment copies, other teams' bots, the SDK
+# (`cambc init`) and maps (`cambc maps pull`) stay local.
+/*
+!/.gitignore
+!/README.md
+!/CLAUDE.md
+!/HANDOFF.md
+!/GameRules.md
+!/BotAPICpp.md
+!/BotAPICpp (1).md
+!/explanation.md
+!/explanation.zh.md
+!/cambc.toml
+
+# Project skills (not local settings)
+!/.claude/
+/.claude/*
+!/.claude/skills/
+
+# Our bots only
+!/bots/
+/bots/*
+!/bots/tungtungsahur/
+!/bots/tripytropa/
+
+# Tools and written analysis (scripts and reports, not downloaded data)
+!/tools/
+!/analysis/
+/analysis/*.json
+/analysis/*.txt
+/analysis/map-dumps/
+/analysis/mx-logs/
+
+# Generated anywhere
+.cambc/
+compile_commands.json
+__pycache__/

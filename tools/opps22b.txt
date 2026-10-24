@@ -1,0 +1,1 @@
+opp-fai-melee,opp-fai-ranged,opp-fai-mirror,opp-fai-heal,opp-fai-bruiser,opp-fai-casters,opp-fai-vesper,tralalerotrarala,opp-tts-v2,opp-tts-v3,opp-tts-v4,opp-tts-v5,opp-tts-locker,opp-tts-aggro,tungtungsahur-v1,my-bot,my-bot-v2,my-bot-v3,starter-cpp,ming_bot,fx-dbllock,opp-tts-v6
